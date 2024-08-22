@@ -60,6 +60,9 @@ def exported_programs_to_tflite(
   Returns:
     A TFLite model.
   """
+
+  print("testing testing")
+  
   if _tfl_converter_flags is None:
     _tfl_converter_flags = {}
 
